@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* About Section */
+.section2 {
+  padding: 4rem;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: right;
+  padding: 15px 40px 0px 0px;
+  column-gap: 30px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  align-items: center;
+}
+.container-post {
+  max-width: 1100px;
+  margin: auto;
+}
+.person-image {
+  /* padding: 6rem 3rem 0rem 0rem;
+  height: fit-content; */
+}
+.text {
+  /* padding: 6rem 6rem 6rem 4rem; */
+}
+.text h1 {
+  font-size: 44px;
+  margin: 0;
+}
+.download-btn {
+  padding: 1rem 0rem 1rem 0rem;
+}
+.btn {
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  background-color: #ff6464;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Post Section  */
+
+.post-section {
+  background-color: #edf7fa;
+  padding: 4rem;
+}
+.top-text {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2rem 3rem 0rem 4rem; */
+}
+.overall-Box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.box1-padding {
+  /* padding: 1rem 2rem 3rem 4rem; */
+}
+.box2-padding {
+  /* padding: 1rem 3rem 3rem 3rem; */
+}
+.box1 {
+  background-color: white;
+  padding: 1rem;
+}
+.box2 {
+  background-color: white;
+  padding: 1rem;
+}
+.viewAll-text {
+  display: flex;
+  justify-content: right;
+  color: #00a8cc;
+}
+.v-Line {
+  border: 1px solid black;
+  position: relative;
+}
+.text-box {
+  display: flex;
+  gap: 37px;
+}
+
+.btn-2020 {
+  background-color: #142850;
+  border-radius: 8px;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+}
+.dashboard-text {
+  color: #8695a4;
+  position: relative;
+  left: 30px;
+}
+
+/* Feature Works */
+.container-feature {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  flex-direction: column;
+}
+.section-feature1 {
+  padding: 2rem 4rem 2rem 4rem;
+}
+.section-feature2 {
+  padding: 2rem 4rem 2rem 4rem;
+}
+.section-feature3 {
+  padding: 2rem 4rem 2rem 4rem;
+}
+.Feature {
+  display: flex;
+  position: relative;
+
+  gap: 50px;
+}
+.feature-text {
+  font-size: 22px;
+}
+.heading {
+  margin-top: 0;
+}
+.p-text {
+  padding-right: 5rem;
+}
+
+/* Footer */
+.section4 {
+  padding: 3rem;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.copyRight {
+  color: #21243d;
+  font-size: 14px;
+  text-align: center;
+}
+/* About media query */
+@media (max-width: 992px) {
+  .container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  .section2 {
+    padding: 0rem;
+  }
+  .person-image {
+    padding: 0rem;
+  }
+  img {
+    width: auto;
+  }
+  .text {
+    padding: 0;
+  }
+  .text h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
+/* post section media query */
+@media (max-width: 992px) {
+  .post-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 0rem 1rem;
+  }
+  .overall-Box {
+    display: flex;
+    flex-direction: column;
+  }
+  .viewAll-text {
+    text-align: right;
+    color: #00a8cc;
+  }
+  .box1-padding {
+    padding: 1rem;
+  }
+  .box2-padding {
+    padding: 1rem;
+  }
+}
+@media (max-width: 390px) {
+  .main-box1 {
+    margin-bottom: 0px;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  .main-box2 {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+}
+/* Features media query */
+@media (max-width: 992px) {
+  .Feature {
+    display: flex;
+    position: relative;
+    padding: 0rem;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+  }
+  .section-feature1 {
+    text-align: center;
+  }
+  .section-feature2 {
+    text-align: center;
+  }
+  .section-feature3 {
+    text-align: center;
+  }
+  .p-text {
+    padding-right: 0rem;
+  }
+  .feature-text {
+    padding: 0rem;
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  .Feature {
+    display: flex;
+    position: relative;
+    padding: 0rem;
+    gap: 50px;
+  }
+}
